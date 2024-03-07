@@ -111,31 +111,82 @@ ul{
     margin-top:50px;
 }
 
-.wow{
-    width: 500px;
-    height:400px;
-    border-radius:80px;
-    margin-left:770px;
-    margin-top:70px;
+.container{
+    display:flex;
+    margin-right: 100px;
+    
 }
-.card1{
+.wowland{
+    width:400px;
+    height:300px;
+    border-radius:20%;
+    margin-left:292px;
+    margin-top:320px;
+
+}
+
+.wowland2{
+    width:400px;
+    height:300px;
+    border-radius:20%;
+    margin-left:-1180px;
+    margin-top:320px;
+}
+
+.title1{
+    position: absolute;
     color:white;
     font-family: 'Inter';
     font-style: italic;
-    font-size: 34px;
+    font-size: 18px;
     font-weight:100;
-    margin-left:70px;
-    margin-top:50px;
-}
-
-.wowt{
-    position:relative;
-    margin-left:18px;
-    margin-top:-1460px;
+    margin-left:50px;
+    margin-right:90px;
+    margin-top:250px;
+    align-self:flex-start;
    
 }
-.container{
-justify-content:space-around;
+.wowtitle{
+    width:400px;
+    height:220px;
+    margin-right:120px;
+    margin-top:80px;
+    margin-left:52px;
+}
 
+.tdutitle{
+    font-weight:100;
+    margin-left:870px;
+    margin-top:100px;
+    width:400px;
+    
+}
 
+.tduland{
+    width:400px;
+    height:300px;
+    border-radius:20%;
+    margin-left:40px;
+    margin-top:80px;
+}
+
+.title2{
+    position: absolute;
+    color:white;
+    font-family: 'Inter';
+    font-style: italic;
+    font-size: 18px;
+    font-weight:100;
+    margin-left:48px;
+    margin-right:0px;
+    margin-top:-380px;
+    align-self:flex-start;
+}
+
+.tduland2{
+    width:400px;
+    height:300px;
+    border-radius:20%;
+    margin-left:440px;
+    margin-top:80px;
 }

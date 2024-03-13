@@ -60,6 +60,7 @@ ul{
     border-top-right-radius: 50%;
     border-bottom-left-radius:50%;
     overflow: hidden;
+    margin-right:1%;
     
 
 }
@@ -81,8 +82,8 @@ ul{
     font-style: italic;
     font-size: 140%;
     font-weight:10;
-    margin-left:6%;
     margin-top:6%;
+    margin-left:5.5%;
 
   
 }
@@ -93,8 +94,8 @@ ul{
     flex-direction: row;
     justify-content:right;
     gap:6%;
-    margin-top:6%;
-    margin-right: 6%;
+    margin-top:9%;
+    margin-right: 8%;
     
 }
 
@@ -108,23 +109,34 @@ ul{
     
 }
 
-
+.div1{
+    display:flex;
+    justify-content:space-around;
+    width:100%;
+    gap:28%;
+    margin-top:6%;
+    
+}
 
 .wowland{
     width:20%;
-    height:60%;
+    height:6%;
     border-radius:20%;
-    margin-left:6%;
-    margin-top:-4%;
 
+}
+.wowland:hover{
+    transform: scale(1.2);
 }
 
 .wowland2{
-    width:400px;
-    height:300px;
+    width:30%;
+    height:0%;
     border-radius:20%;
-    margin-left:26%;
-    margin-top:10%;
+   
+    
+}
+.wowland2:hover{
+    transform:scale(1.2);
 }
 
 .title1{
@@ -134,8 +146,9 @@ ul{
     font-style: italic;
     font-size: 100%;
     font-weight:100;
+    margin-right:3%;
     margin-left:6%;
-    margin-top:-50%;
+    margin-top:-4%;
     align-self:flex-start;
    
 }
@@ -144,24 +157,34 @@ ul{
     height:22%;
     margin-right:20%;
     margin-left:6%;
-    margin-top:6%;
+    margin-top:4%;
+ 
 }
 
 .tdutitle{
     font-weight:100;
-    margin-left:870px;
-    margin-top:100px;
-    width:400px;
+    margin-left:66%;
+    margin-top:6%;
+    width:26%;
     
 }
  
+.div2{
+    display:flex;
+    justify-content:space-around;
+    
+    gap:14%;
+    margin-left:-4%;
+    
+}
+
 
 .tduland{
-    width:400px;
-    height:300px;
+    width:30%;
+    height:44%;
     border-radius:20%;
-    margin-left:60px;
-    margin-top:80px;
+    margin-left:4%;
+    margin-top:10%;
 }
 
 .title2{
@@ -169,54 +192,52 @@ ul{
     color:white;
     font-family: 'Inter';
     font-style: italic;
-    font-size: 18px;
+    font-size: 100%;
     font-weight:100;
-    margin-left:48px;
-    margin-right:0px;
-    margin-top:-380px;
+    margin-right:7%;
+    margin-left:6%;
+    margin: top 30%;;
     align-self:flex-start;
 }
 
 .tduland2{
-    width:400px;
-    height:300px;
+    width:30%;
+    height:40%;
     border-radius:20%;
-    margin-left:440px;
-    margin-top:80px;
+   margin-top:10%;
 }
 
 .cstitle{
     font-weight:100;
-    margin-left:50px;
-    margin-top:100px;
-    width:400px;
+    margin-left:6%;
+    margin-top:9%;
+    width:26%;
 }
 .cstext{
     position: absolute;
     color:white;
     font-family: 'Inter';
     font-style: italic;
-    font-size: 18px;
+    font-size: 100%;
     font-weight:100;
-    margin-left:48px;
-    margin-right:0px;
+    margin-left:6%;
     align-self:flex-start;
 }
 
 .cspng{
-    width:400px;
-    height:300px;
+    width:30%;
+    height:40%;
     border-radius:20%;
     margin-left:870px;
-    margin-top:60px;
+    margin-top:6%
 }
 
 .cspng2{
-    width:400px;
-    height:300px;
+    width:30%;
+    height:20%;
     border-radius:20%;
-    margin-left:70px;
-    margin-top:-400px;
+    margin-left:6%;
+    margin-top:-20%
 }
 
 .footer1{
